@@ -5,4 +5,4 @@
    <br>```cd %filename%```
 3. Automate deactivation by creating "user.js" in the moved directory
    <br>```echo user_pref("network.http.http2.enabled", false); > user.js```
-Implemented in firefox, but can be replaced in chrome
+<p>Implemented in firefox, but can be replaced in chrome
