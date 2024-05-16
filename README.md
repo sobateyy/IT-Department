@@ -1,1 +1,7 @@
 # IT-Department
+
+### Disable http2
+1. Find prefs.js in "%APPDATA%\Mozilla\Firefox\Profiles" and move it to the same directory
+   ```cd %filename%```
+3. Automate deactivation by creating "user.js" in the moved directory
+   ```echo user_pref("network.http.http2.enabled", false); > user.js```
